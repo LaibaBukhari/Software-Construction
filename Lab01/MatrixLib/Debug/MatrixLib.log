@@ -1,28 +1,14 @@
-﻿Build started 07/02/2018 3:10:50 AM.
-     1>Project "C:\Users\szahid.bese15seecs\Desktop\Lab1\MatrixClient\MatrixLib\MatrixLib.vcxproj" on node 2 (Build target(s)).
+﻿Build started 07/02/2018 4:52:07 AM.
+     1>Project "C:\Users\szahid.bese15seecs\Desktop\Lab1\Software-ConstructionLaiba\Lab01\MatrixLib\MatrixLib.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MatrixLib.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MatrixLib.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp MatrixAddSub.cpp MatrixInverse.cpp MatrixLib.cpp MatrixMultiplication.cpp
-         AssemblyInfo.cpp
-     1>AssemblyInfo.cpp(40): warning C4947: 'RequestMinimum' : marked as obsolete
-                 Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MatrixLib.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MatrixAddSub.cpp
          MatrixAddSub.cpp
-         MatrixInverse.cpp
-     1>MatrixInverse.cpp(9): warning C4018: '<' : signed/unsigned mismatch
-     1>MatrixInverse.cpp(11): warning C4018: '<' : signed/unsigned mismatch
-         MatrixLib.cpp
-         MatrixMultiplication.cpp
-     1>MatrixMultiplication.cpp(10): warning C4018: '<' : signed/unsigned mismatch
-     1>MatrixMultiplication.cpp(12): warning C4018: '<' : signed/unsigned mismatch
-     1>MatrixMultiplication.cpp(14): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\szahid.bese15seecs\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+     1>MatrixAddSub.cpp(6): warning C4018: '<' : signed/unsigned mismatch
+     1>MatrixAddSub.cpp(7): warning C4018: '<' : signed/unsigned mismatch
+     1>MatrixAddSub.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>MatrixAddSub.cpp(18): warning C4018: '<' : signed/unsigned mismatch
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\szahid.bese15seecs\Desktop\Lab1\MatrixClient\Debug\MatrixLib.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\szahid.bese15seecs\Desktop\Lab1\MatrixClient\Debug\MatrixLib.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\szahid.bese15seecs\Desktop\Lab1\Software-ConstructionLaiba\Lab01\Debug\MatrixLib.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\szahid.bese15seecs\Desktop\Lab1\Software-ConstructionLaiba\Lab01\Debug\MatrixLib.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
          Debug\AssemblyInfo.obj
          Debug\MatrixAddSub.obj
          Debug\MatrixInverse.obj
@@ -30,9 +16,9 @@
          Debug\MatrixMultiplication.obj
          Debug\Stdafx.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
-         MatrixLib.vcxproj -> C:\Users\szahid.bese15seecs\Desktop\Lab1\MatrixClient\Debug\MatrixLib.dll
-     1>Done Building Project "C:\Users\szahid.bese15seecs\Desktop\Lab1\MatrixClient\MatrixLib\MatrixLib.vcxproj" (Build target(s)).
+         MatrixLib.vcxproj -> C:\Users\szahid.bese15seecs\Desktop\Lab1\Software-ConstructionLaiba\Lab01\Debug\MatrixLib.dll
+     1>Done Building Project "C:\Users\szahid.bese15seecs\Desktop\Lab1\Software-ConstructionLaiba\Lab01\MatrixLib\MatrixLib.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.84
+Time Elapsed 00:00:02.14

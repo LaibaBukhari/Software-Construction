@@ -55,12 +55,16 @@ int main(){
 
 		switch (option){
 		case 1:
+			result = MatrixLib::add(mat1, mat2);
 			break;
 		case 2:
+			result = MatrixLib::sub(mat1, mat2);
 			break;
 		case 3:
+			result = MatrixLib::matrixTranspose(mat1);
 			break;
 		case 4:
+			result = MatrixLib::matrixMultiply(mat1, mat2);
 			break;
 		default:
 			break;

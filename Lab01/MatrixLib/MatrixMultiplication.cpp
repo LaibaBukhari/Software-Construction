@@ -1,7 +1,7 @@
 #include "Stdafx.h"
 #include "MatrixLib.h"
 
-std::vector<std::vector<int>> matrixMultiply(std::vector<std::vector<int>> mat1, std::vector<std::vector<int>> mat2)
+std::vector<std::vector<int>> MatrixLib::matrixMultiply(std::vector<std::vector<int>> mat1, std::vector<std::vector<int>> mat2)
 {
 	if (mat1.size() == 0 || mat2.size()==0)
 		return std::vector<std::vector<int>>();
